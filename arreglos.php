@@ -34,9 +34,18 @@
 
 	$lenguajesWeb = ["lenguaje1" => 'PHP', "lenguaje2" => 'JavaScript', "lenguaje3" => "Ruby"];
 
-	echo $lenguajesWeb["lenguaje2"];
+	echo $lenguajesWeb["lenguaje2"]."<br>";
 
 	//Arreglos multidimensionales - Primero se indica la fila y después la columna. Pueden ser asociados o indexados.
+
+	#Arreglos indexados
+
+	$dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
+
+	var_dump($dias);
+	echo "<br>";
+
+	echo "Creación de arreglos asociativo";
 
 
 
