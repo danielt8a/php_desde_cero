@@ -73,7 +73,25 @@
 
 	var_dump($alumnos1);
 
-	echo "<br>".$alumnos[1][0];
+	echo "<br>".$alumnos[1][0]."<br>";
+
+	// Arreglo multidimensional del tipo asociativo. Se utiliza => para asociar una llave con un valor
+
+	$arregloAsociativo = array(
+		array('nombre' => 'Juan', 'edad' => 20, 'país' => 'México'),
+		array('nombre' => 'Andrea', 'edad' => 30, 'país' => 'Colombia'),
+		array('nombre' => 'Eva', 'edad' => 24, 'país' => 'RDominicana'),
+	);
+
+	echo $arregloAsociativo[2]['edad'];
+
+	echo "<br>";
+	//Agregar una llave a un arreglo. Se utiliza el signo = para asignar el valor.
+
+	$arregloAsociativo[1]['Calificacion'] = 9.5;
+
+	var_dump($arregloAsociativo);
+
 
 
 
