@@ -45,7 +45,38 @@
 	var_dump($dias);
 	echo "<br>";
 
-	echo "Creación de arreglos asociativo";
+	# Creación de arreglo asociativo
+
+	$usuario = array('nombre' => 'Dámaso', 'edad' => 34, 'Lenguaje' => 'PHP');
+
+	echo "Mi nombre es: ".$usuario['nombre']."<br>";
+
+	// Arreglo multidimensional de tipo indexado
+
+	$alumnos = array(
+		array('Juan', 20, 'México'),
+		array('Salomé',25,'Perú'),
+		array('Caros',30,'Bolivia'),
+		array('Homero',35,'USA')
+
+	);
+
+	var_dump($alumnos);
+
+	echo "<br>";
+
+	$alumnos1 = [
+		['Salomé', 34, 'Brasil'],
+		['Eva', 24, 'RDominicana']
+
+	];
+
+	var_dump($alumnos1);
+
+	echo "<br>".$alumnos[1][0];
+
+
+
 
 
 
