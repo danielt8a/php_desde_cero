@@ -65,7 +65,40 @@
 
 	 echo "<br>";
 
+	 #Divir un arreglo especificando su tamaño
 
+	 $videojuegos = ['Fifa', 'Fornite', 'Red Dead',
+					'Call of Duty', 'Battlefield',
+					'Pókemon', 'GTA', 'The Sims', 'Halo'];
+
+	#$dividir = array_chunk($videojuegos, 2);
+	#var_dump($dividir);
+
+	#Dividir el arreglo y eliminar lo anterior
+	#var_dump(array_slice($videojuegos,2));
+
+	#Unir arreglos
+
+	// $frutas = ['platano', 'uva', 'manzana'];
+	// $verduras = ['chile', 'tomate'];
+
+	// $unir = array_merge($frutas, $verduras);
+	// var_dump($unir);
+
+	#Eliminar el último elemento
+
+	// array_pop($videojuegos);
+	// var_dump($videojuegos);
+
+	#Agregar uno o más elementos al final del arreglo
+	// array_push($videojuegos, 'Smash Bros');
+	// var_dump($videojuegos);
+
+	#Buscar un elemento en el arreglo
+
+	$calAlumos = array(10,8,10,5,5,3,6,5);
+	$buscar = array_search(3, $calAlumos);
+	var_dump($buscar);
 
 
 
