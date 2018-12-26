@@ -21,6 +21,9 @@
 
 	 // Operador ternario
 
+	 $a = ($numero == 1) ? 1 : 2;
+	 echo "El número es igual a ".$a."<br>";
+
 
 
 ?>
