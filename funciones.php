@@ -27,11 +27,20 @@
 
 	 */
 
+
+	#Lleve ; al final porque es una variable
 	$despedida = function(){
 		echo "Última clase de PHP desde cero, gracias por acompañarme";
 	};
 
+	#Mandar a llamar a la función despedida
 	$despedida();
+
+	#Utilizando la palabra reservada closure
+	function finalizaCurso(closure, $curso, $nombre){
+		return $curso($nombre);
+	}
+
 
 
 ?>
