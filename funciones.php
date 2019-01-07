@@ -7,13 +7,18 @@
 	 }
 	 */
 
-	 function sumarNumeros($a, $b){
+	 function sumarNumeros($a, $b, $imprime = false){
 	 	$suma = $a + $b;
-	 	return $suma;
+	 	if ($imprime == true){
+	 		echo "La suma es ".$suma."<br>";
+	 	}else {
+	 		return $suma;
+	 	}
+	 	
 	 }
 
 	 $numero1 = 5;
-	 echo sumarNumeros($numero1,10);
+	 sumarNumeros($numero1,10);
 
 
 ?>
