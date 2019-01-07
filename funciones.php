@@ -37,9 +37,24 @@
 	$despedida();
 
 	#Utilizando la palabra reservada closure
-	function finalizaCurso(closure, $curso, $nombre){
+	function finalizaCurso(Closure $curso, $nombre){
 		return $curso($nombre);
 	}
+
+	$php = function ($nombre){
+		return "<p>Gracias".$nombre." por finalizar el curso de PHP</p>";
+	}
+
+	$laravel = function($nombre){
+		return "<p>Gracias ".$nombre." por finalizar el curso de Laravel</p>";
+	}
+
+	#Mandando a llamar a la función
+
+	echo finalizaCurso($php, 'Juan');
+	echo finalizaCurso($laravel, 'Luis');
+
+
 
 
 
