@@ -18,7 +18,12 @@
 	 }
 
 	 $numero1 = 5;
-	 sumarNumeros($numero1,10);
+	 sumarNumeros($numero1,10, true);
+
+
+	/**
+	 * Funciones enclosure
+	 */
 
 
 ?>
