@@ -20,10 +20,18 @@
 	 $numero1 = 5;
 	 sumarNumeros($numero1,10, true);
 
+	 echo "<br>";
 
 	/**
-	 * Funciones enclosure
+	 * Funciones closure o anónimas
+
 	 */
+
+	$despedida = function(){
+		echo "Última clase de PHP desde cero, gracias por acompañarme";
+	};
+
+	$despedida();
 
 
 ?>
