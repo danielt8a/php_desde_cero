@@ -9,10 +9,11 @@
 
 	 function sumarNumeros($a, $b){
 	 	$suma = $a + $b;
-	 	return suma;
+	 	return $suma;
 	 }
 
-
+	 $numero1 = 5;
+	 echo sumarNumeros($numero1,10);
 
 
 ?>
